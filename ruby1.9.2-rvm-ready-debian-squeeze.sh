@@ -2,9 +2,7 @@
 
 apt-get update
 
-apt-get -y -V install autoconf automake autotools-dev build-essential bison bzip2 curl git libreadline5 libsqlite3-0 sqlite3 libsqlite3-dev libxml2-dev libmysqlclient-dev libreadline5-dev libruby openssl libssl-dev zlib1g zlib1g-dev zlibc
-
-apt-get -y -V install curl git-core gcc make libxml2-dev libxslt-dev libopenssl-ruby libncurses5-dev libreadline5-dev nginx libapr1-dev libaprutil1-dev build-essential libcurl4-openssl-dev libssl-dev zlib1g-dev libopenssl-ruby
+apt-get -y -V install autoconf automake autotools-dev build-essential bison bzip2 curl git libreadline5 libsqlite3-0 sqlite3 libsqlite3-dev libxml2-dev libmysqlclient-dev libreadline5-dev libruby openssl libssl-dev zlib1g zlib1g-dev zlibc git-core gcc make libxml2-dev libxslt-dev libopenssl-ruby libncurses5-dev nginx libapr1-dev libaprutil1-dev build-essential libcurl4-openssl-dev
   
 bash < <( curl -L -B http://rvm.beginrescueend.com/install/rvm )
 
