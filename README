@@ -1,3 +1,5 @@
+There are a lot of scripts for RVM installation on Debian Squeeze, which are all more or less poor or wobbly, or which make clear conflicts with Readline lib (bye bye irb...) or debian-aptitude-based ruby installation
+
 This scripts should be run from a fresh Debian 6 "squeeze" installation (if possible with no web server nor ruby version installed from Aptitude)
 
 This script installs ruby1.9.2 with readline compatibility in a RVM environnement (https://rvm.beginrescueend.com/), with all dependancies (from Aptitude).
@@ -7,3 +9,5 @@ This script will also install an empty nginx, which is very usefull for proxy_pa
 Beware : There are a part which will write on you .bashrc file. If you're using ZSH or other alternate shell, please modify.
 
 Enjoy.
+
+Colin Brigato
