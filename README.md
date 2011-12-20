@@ -43,9 +43,13 @@ Notes
 -----
 
 When installing under root accout, be sure to add manually to your .bashrc the rvm ENV vars : 
+
     echo [[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm" >> .bashrc
+
 When using something else than bash (zsh for example), remember to add manually to your .WHATEVERrc the rvm ENV vars :
+
     Under root :
     echo [[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm" >> .zshrc
     Under user :
     echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> .zshrc
+
