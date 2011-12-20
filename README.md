@@ -31,19 +31,20 @@ You'll be asked for sudo password at the beginning of the script, in order to in
 The script modifies environment variables and .bashrc, and thus won't work in the current shell
 
 ### Step 4 : Do the usual stuff
-   gem update --system
-   gem update
-   echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
-   gem install thin
-   apt-get install apache2 libapache2-mod-passenger
-   ...
+
+    gem update --system
+    gem update
+    echo "gem: --no-rdoc --no-ri" >> $HOME/.gemrc
+    gem install thin
+    apt-get install apache2 libapache2-mod-passenger
+    ...
 
 Notes
 -----
 
-* When installing under root accout, be sure to add manually to your .bashrc the rvm ENV vars : 
+When installing under root accout, be sure to add manually to your .bashrc the rvm ENV vars : 
     echo [[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm" >> .bashrc
-* When using something else than bash (zsh for example), remember to add manually to your .WHATEVERrc the rvm ENV vars :
+When using something else than bash (zsh for example), remember to add manually to your .WHATEVERrc the rvm ENV vars :
     Under root :
     echo [[ -s "/usr/local/rvm/scripts/rvm" ]] && . "/usr/local/rvm/scripts/rvm" >> .zshrc
     Under user :
