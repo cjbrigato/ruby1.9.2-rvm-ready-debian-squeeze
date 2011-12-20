@@ -53,3 +53,4 @@ When using something else than bash (zsh for example), remember to add manually 
     Under user :
     echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> .zshrc
 
+This _**may**_ work on Ubuntu 10.04/11 too
